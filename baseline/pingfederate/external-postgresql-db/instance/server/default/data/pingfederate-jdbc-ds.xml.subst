@@ -8,6 +8,7 @@
         <user-name>${POSTGRESQL_USER}</user-name>
         <password>${POSTGRESQL_PASSWORD}</password>
         <ping-db-type>Custom</ping-db-type>
+        <check-valid-connection-sql>SELECT 1</check-valid-connection-sql>
     </local-tx-datasource>
 
 </datasources>
