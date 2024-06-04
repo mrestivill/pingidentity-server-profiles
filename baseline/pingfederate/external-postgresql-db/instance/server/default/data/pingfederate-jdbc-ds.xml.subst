@@ -7,7 +7,8 @@
         <driver-class>org.postgresql.Driver</driver-class>
         <user-name>${POSTGRESQL_USER}</user-name>
         <password>${POSTGRESQL_PASSWORD}</password>
-        <ping-db-type>PostgreSQL</ping-db-type>        
+        <ping-db-type>PostgreSQL</ping-db-type>    
+        <check-valid-connection-sql>SELECT 1</check-valid-connection-sql>    
     </local-tx-datasource>
 
 </datasources>
