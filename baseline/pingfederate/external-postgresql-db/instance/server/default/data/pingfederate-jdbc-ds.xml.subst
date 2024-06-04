@@ -3,7 +3,7 @@
     <local-tx-datasource maskAttributeValues="false">
         <description>ProvisionerDS</description>
         <jndi-name>ProvisionerDS</jndi-name>
-        <connection-url>jdbc:postgresql://${POSTGRESQL_HOST}:${POSTGRESQL_PORT}/${POSTGRESQL_DB}?ssl=true</connection-url>
+        <connection-url>jdbc:postgresql://${POSTGRESQL_HOST}:${POSTGRESQL_PORT}/${POSTGRESQL_DB}</connection-url>
         <driver-class>org.postgresql.Driver</driver-class>
         <user-name>${POSTGRESQL_USER}</user-name>
         <password>${POSTGRESQL_PASSWORD}</password>
